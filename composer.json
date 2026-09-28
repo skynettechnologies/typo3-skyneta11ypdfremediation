@@ -1,0 +1,27 @@
+{
+    "name": "skynettechnologies/typo3-skyneta11ypdfremediation",
+    "type": "typo3-cms-extension",
+    "description": "SkynetA11y PDF Remediation",
+    "require": {
+         "typo3/cms-core": "^13.0 || ^14.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Skynettechnologies\\Skyneta11ypdfremediation\\": "Classes/"
+        }
+    },
+    "replace": {
+        "typo3-ter/skyneta11ypdfremediation": "self.version"
+    },
+    "config": {
+        "vendor-dir": ".Build/vendor/",
+        "bin-dir": ".Build/bin/"
+    },
+    "extra": {
+        "typo3/cms": {
+            "cms-package-dir": "{$vendor-dir}/typo3/cms",
+            "web-dir": ".Build/public",
+            "extension-key": "skyneta11ypdfremediation"
+        }
+    }
+}

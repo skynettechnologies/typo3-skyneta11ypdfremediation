@@ -1,0 +1,20 @@
+plugin.tx_typo3skyneta11ypdfremediation_tool {
+  view {
+    # cat=plugin.tx_typo3skyneta11ypdfremediation_tool/file; type=string; label=Path to template root (FE)
+    templateRootPath = EXT:skyneta11ypdfremediation/Resources/Private/Templates/
+    # cat=plugin.tx_typo3skyneta11ypdfremediation_tool/file; type=string; label=Path to template partials (FE)
+    partialRootPath = EXT:skyneta11ypdfremediation/Resources/Private/Partials/
+    # cat=plugin.tx_typo3skyneta11ypdfremediation_tool/file; type=string; label=Path to template layouts (FE)
+    layoutRootPath = EXT:tskyneta11ypdfremediation/Resources/Private/Layouts/
+  }
+  
+}
+
+module.tx_skyneta11ypdfremediation_Sntg_skyneta11ypdfremediationtoolmodule {
+  view {
+    templateRootPath = EXT:skyneta11ypdfremediation/Resources/Private/Backend/Templates/
+    partialRootPath = EXT:skyneta11ypdfremediation/Resources/Private/Backend/Partials/
+    layoutRootPath = EXT:skyneta11ypdfremediation/Resources/Private/Backend/Layouts/
+  }
+
+}
